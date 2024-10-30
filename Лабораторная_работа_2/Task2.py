@@ -12,5 +12,4 @@ for _ in range(months):
     spend *= (1 + increase)
 
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(required_cushion))
-
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(required_cushion)+1)
